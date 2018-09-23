@@ -5,12 +5,26 @@
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scable=no">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	
 </head>
 <body>
+	<div>
+		<span id="menu_btn"><i class="fas fa-bars"></i></span>
+		
+		<ul id="menu" style="display: none">
+			<li><img src="img/1.jpg" alt=""></li>
+			<li><img src="img/2.jpg" alt=""></li>
+			<li><img src="img/3.jpg" alt=""></li>
+			<li><img src="img/4.jpg" alt=""></li>
+		</ul>
+		<div id="pic_small">
+			<img src="img/2.jpg" alt="">
+		</div>
+	</div>
 	<h2>Picture Puzzle <button id="btn">GO</button></h2>
 	
-	<div id="container">
+	<div id="container" style="background-image: url('img/2.jpg') ">
 		
 		<div class="pic" data-index="1" style="left:0px;top:0px;background-position: 0px 0px;" >0</div>
 		<div class="pic" data-index="2" style="left:100px;top:0px;background-position: -100px 0px;">1</div>

@@ -1,5 +1,39 @@
 
-h2{text-align: center;}
+body,html,div,ul,li{margin:0;padding: 0;}
+#menu_btn{
+	display: block;
+	position: absolute;
+	left:8px;
+	top:8px;
+}
+#menu{
+	/*margin-top:10px;*/ 
+	padding: 15px 0 0 8px;
+	position: absolute;
+	width:50%;
+	background-color: #fff;
+	left: 0;
+	top:25px;
+	z-index: 200;
+}
+#menu li{
+	list-style: none;
+	height: 70px;
+	line-height: 70px;
+	/*margin-left: 5px;*/
+}
+#menu li img{
+	width:15%;
+	margin-left: 5px;
+}
+#pic_small img{
+	position:absolute;
+	right:8px;
+	top:8px;
+	width: 15%;
+	display: none;
+}
+h2{margin-top: 50px;text-align: center;}
 button{margin-left:10px; }
 #container{margin:0 auto; width:300px;height: 400px;position: relative;background: url("../img/2.jpg");}
 .pic{
@@ -36,4 +70,3 @@ button{margin-left:10px; }
 	from{transform:rotate(0deg);}
 	to{transform:rotate(360deg);}
 }
-	
